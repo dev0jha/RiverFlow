@@ -11,12 +11,12 @@ export default function Home() {
       </section>
 
       {/* Content Section */}
-      <section className="bg-white dark:bg-gray-900">
+      <section className="relative">
         <div className="container mx-auto px-4 py-20">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {/* Latest Questions */}
             <div className="lg:col-span-2">
-              <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-3xl font-bold text-white">
                 Latest Questions
               </h2>
               <LatestQuestions />
@@ -24,7 +24,7 @@ export default function Home() {
 
             {/* Top Contributors */}
             <div className="lg:col-span-1">
-              <h2 className="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+              <h2 className="mb-6 text-3xl font-bold text-white">
                 Top Contributors
               </h2>
               <TopContributers />

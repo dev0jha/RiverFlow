@@ -12,12 +12,12 @@ export default function Header() {
         {
             name: "Home",
             link: "/",
-            icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+            icon: <IconHome className="h-4 w-4 text-white/90" />,
         },
         {
             name: "Questions",
             link: "/questions",
-            icon: <IconWorldQuestion className="h-4 w-4 text-neutral-500 dark:text-white" />,
+            icon: <IconWorldQuestion className="h-4 w-4 text-white/90" />,
         },
     ];
 
@@ -25,7 +25,7 @@ export default function Header() {
         navItems.push({
             name: "Profile",
             link: `/users/${user.$id}/${slugify(user.name)}`,
-            icon: <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />,
+            icon: <IconMessage className="h-4 w-4 text-white/90" />,
         });
 
     return (
